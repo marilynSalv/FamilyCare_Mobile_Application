@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="edu.usf.cse.labrador.familycare.DisplayAlarmsActivity">
+
+<TextView
+    android:id="@+id/header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="Taking you medication on time is important. Add a reminder so you don't forget!" />
+<Button
+    android:id="@+id/oneTimeButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="One Time Reminder"
+    android:layout_below="@+id/header"
+    android:onClick="addOneTimeReminder"/>
+
+<Button
+    android:id="@+id/freqButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/oneTimeButton"
+    android:text="Frequent Reminder"
+    android:layout_below="@+id/header"
+    android:onClick="addFrequentReminder"/>
+
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_below="@+id/oneTimeButton"
+    android:id="@+id/menu"/>
+<ListView
+    android:id="@+id/alarm_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/menu" />
+
+</RelativeLayout>

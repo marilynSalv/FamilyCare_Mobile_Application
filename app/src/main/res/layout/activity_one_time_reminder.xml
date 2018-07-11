@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="edu.usf.cse.labrador.familycare.OneTimeReminderActivity">
+
+<TextView
+    android:id="@+id/header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:text="Please enter the title for the alarm. For example, it can be a pill or refill reminder"
+    android:textSize="18dp" />
+
+
+<EditText
+    android:id="@+id/editAlarmTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_below="@id/header"
+    android:hint="Alarm Title"
+    android:inputType="text" />
+
+<Button
+    android:id="@+id/timeButton"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_below="@id/editAlarmTitle"
+    android:layout_alignParentLeft="true"
+    android:text="Select Time"
+    android:onClick="setTime"
+    android:layout_marginTop="20dp" />
+<TextView
+    android:id="@+id/displayTime"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="No time selected"
+    android:textSize="18dp"
+    android:layout_alignBaseline="@id/timeButton"
+    android:layout_alignParentRight="true"/>
+
+
+
+<Button
+    android:id="@+id/dateButton"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/timeButton"
+    android:text="Select Date"
+    android:onClick="setDate"
+    android:layout_marginTop="20dp"/>
+
+<TextView
+    android:id="@+id/displayDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="No date selected"
+    android:textSize="18dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignBaseline="@id/dateButton"/>
+
+
+
+<Button
+    android:id="@+id/setButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Set Alarm"
+    android:layout_below="@+id/dateButton"
+    android:layout_marginTop="15dp"
+    android:layout_centerHorizontal="true"
+    android:onClick="setAlarm"/>
+
+</RelativeLayout>

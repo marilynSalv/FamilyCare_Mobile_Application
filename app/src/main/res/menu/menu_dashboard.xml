@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Dashboard">
+    <item android:id="@+id/message"
+        android:orderInCategory="1"
+        android:title="Message Pharmacist"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/call"
+        android:orderInCategory="2"
+        android:title="Call Pharmacy"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/route"
+        android:orderInCategory="3"
+        android:title="Route to Pharmacy"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/action_signOut"
+        android:orderInCategory="4"
+        android:title="Sign Out"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

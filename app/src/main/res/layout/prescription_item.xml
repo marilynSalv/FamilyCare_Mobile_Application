@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rx_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rx Information"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        android:id="@+id/btnDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:id="@+id/btnRefill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refill"
+        android:layout_below="@+id/btnDetails"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

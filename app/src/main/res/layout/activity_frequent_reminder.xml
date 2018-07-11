@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="edu.usf.cse.labrador.familycare.FrequentReminderActivity">
+
+<EditText
+    android:id="@+id/editAlarmTitle2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Alarm Title"
+    android:inputType="text" />
+
+
+<Button
+    android:id="@+id/timeButton"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_below="@id/editAlarmTitle2"
+    android:layout_alignParentLeft="true"
+    android:text="Select Time"
+    android:onClick="setTime"
+    android:layout_marginTop="20dp" />
+
+<TextView
+    android:id="@+id/displayTime2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="No time selected"
+    android:textSize="18dp"
+    android:layout_alignBaseline="@id/timeButton"
+    android:layout_alignParentRight="true"/>
+
+<TextView
+    android:id="@+id/message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/timeButton"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:text="Select the days of the week for the alarm"
+    android:textSize="16dp" />
+
+<LinearLayout
+    android:id="@+id/daysOfWeekButtons"
+    android:layout_marginTop="10dp"
+    android:layout_below="@id/message"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <ToggleButton
+        android:id="@+id/Sun"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textOn="Sun"
+        android:textOff="Sun" />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/M"
+        android:layout_weight="1"
+        android:textOn="M"
+        android:textOff="M" />
+    <ToggleButton
+        android:id="@+id/T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textOn="T"
+        android:textOff="T" />
+    <ToggleButton
+        android:id="@+id/W"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textOn="W"
+        android:textOff="W" />
+    <ToggleButton
+        android:id="@+id/Th"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textOn="Th"
+        android:textOff="Th" />
+
+    <ToggleButton
+        android:id="@+id/F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textOn="F"
+        android:textOff="F" />
+
+    <ToggleButton
+        android:id="@+id/Sat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textOn="Sat"
+        android:textOff="Sat" />
+</LinearLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="setAlarm"
+    android:text="Set Alarm"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/daysOfWeekButtons"/>
+
+</RelativeLayout>

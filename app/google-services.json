@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "979004386521",
+    "firebase_url": "https://familycare-cafe8.firebaseio.com",
+    "project_id": "familycare-cafe8",
+    "storage_bucket": "familycare-cafe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979004386521:android:c2bb82a6d1b637bb",
+        "android_client_info": {
+          "package_name": "edu.usf.cse.labrador.familycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979004386521-1v6st5q3oef4of0i7mum6a14sunrt3g3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.usf.cse.labrador.familycare",
+            "certificate_hash": "fb7a5b09b5b361713068e335ad4cf09b44f068b5"
+          }
+        },
+        {
+          "client_id": "979004386521-aeuindqugvn4bfta7s0qoia631ru0f8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCu7IDfJsJJNnN8CH0hEiL8Fm8yWbKhA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979004386521-aeuindqugvn4bfta7s0qoia631ru0f8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">FamilyCare</string>
+    <string name="action_search">Manual Entry</string>
+
+    <string-array name="alarmViewOptions">
+        <item>One Time Alarms</item>
+        <item>Frequent Alarms</item>
+    </string-array>
+
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_reminder">Pill Reminder</string>
+    <string name="title_activity_health">Manage Health</string>
+    <string name="title_activity_barcode">Scan Refill</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="btnReminder">Pill Reminder</string>
+    <string name="btnBarcode">Scan Refill</string>
+    <string name="btnContact">Contact</string>
+    <string name="btnRefill">REFILL</string>
+    <string name="btnDetail">DETAILS</string>
+
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="register">New User? Register here</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login_text">Login</string>
+
+    <string name="create_acc_text">Please enter the following to create a new account</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_confirm_pass">Confirm password</string>
+    <string name="create_text">Create Account</string>
+
+    <string name="med_details">Medication Details</string>
+    <string name="med_name">Medication Name: </string>
+    <string name="instructions">Instructions:</string>
+    <string name="symptoms_text">Symptoms:</string>
+
+    <string name="contact_test">Select an option</string>
+    <string name="msg_pharmacist">Message Pharmacist</string>
+    <string name="call_pharmacy">Call Pharmacy</string>
+    <string name="pharmacy_route">Route to Pharmacy</string>
+
+    <string name="no_camera_permission">This feature cannot run because access to the camera is
+        needed for detection</string>
+    <string name="confidential">The information contained in this email is legally privileged and
+        confidential information intended only for the use of the individual or entity to which it
+        is addressed. If the reader of this message is not the intended recipient, you are hereby
+        notified that any viewing, dissemination, distribution, or copy of this e-mail message is
+        strictly prohibited. If you have received and/or are viewing this e-mail in error, please
+        immediately notify the sender by reply e-mail, and delete this e-mail from your system.
+    </string>
+    <string name="low_storage_error">Barcode detector dependencies cannot be downloaded due to low
+        device storage</string>
+</resources>
